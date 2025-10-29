@@ -17,6 +17,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend",
     policy => policy.WithOrigins(
             "http://localhost:5173",
+            "https://victorious-water-0685ae403.3.azurestaticapps.net/",
             "https://victorious-water-0685ae403-preview.westeurope.3.azurestaticapps.net"
             )
         .AllowAnyHeader()
