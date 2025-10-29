@@ -1,6 +1,6 @@
 export interface PortfolioTotal {
     id: number
-    datetime: string
+    dateTime: string
     currency: string
     totalValue: number
 }
