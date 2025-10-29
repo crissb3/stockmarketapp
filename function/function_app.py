@@ -158,7 +158,5 @@ def timer_trigger1(myTimer: func.TimerRequest) -> None:
 
 
 
-# App hente data hver dag om pris på mine symbol
-# Legge inn hvor mye jeg eier av hver aksje/crypto. Lagre total value hver dag, for hver enkelt men også mulighet for å bruke alle?
 # Displaye graf med gains/loss for dataen jeg har.
 # Forbedring: Sjekke for dag i uka for å unngå å hente inn data for stocks dager markedet er nede (lør, søn). Kun hente cryptoverdier disse dagene og bruk siste innhentet data for stocks, for å oppdatere totalverdi på de dagene.
